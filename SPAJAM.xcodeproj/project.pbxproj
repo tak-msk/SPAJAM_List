@@ -18,8 +18,12 @@
 		3BCC8C8A1967D15E006E5F51 /* icon_more.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BCC8C871967D15E006E5F51 /* icon_more.png */; };
 		3BCC8C8B1967D15E006E5F51 /* icon_people.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BCC8C881967D15E006E5F51 /* icon_people.png */; };
 		3BCC8C8D1967E15C006E5F51 /* users.json in Resources */ = {isa = PBXBuildFile; fileRef = 3BCC8C8C1967E15C006E5F51 /* users.json */; };
-		3BCC8C981967F900006E5F51 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3BCC8C951967F900006E5F51 /* Info.plist */; };
-		3BCC8C991967F900006E5F51 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BCC8C971967F900006E5F51 /* SwiftyJSON.swift */; };
+		3BCC8C9B19681016006E5F51 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BCC8C9A19681016006E5F51 /* DetailViewController.swift */; };
+		3BCC8C9D1968150C006E5F51 /* sentence.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BCC8C9C1968150C006E5F51 /* sentence.png */; };
+		3BDE61221968164F00EA0075 /* bg_01.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BDE61211968164F00EA0075 /* bg_01.png */; };
+		3BDE61241968179300EA0075 /* request.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BDE61231968179300EA0075 /* request.png */; };
+		3BDE612919681C1300EA0075 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3BDE612619681C1300EA0075 /* Info.plist */; };
+		3BDE612A19681C1300EA0075 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BDE612819681C1300EA0075 /* SwiftyJSON.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,9 +52,13 @@
 		3BCC8C871967D15E006E5F51 /* icon_more.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon_more.png; path = ../../../../../Dropbox/SPAJAM/Icons/icon_more.png; sourceTree = "<group>"; };
 		3BCC8C881967D15E006E5F51 /* icon_people.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon_people.png; path = ../../../../../Dropbox/SPAJAM/Icons/icon_people.png; sourceTree = "<group>"; };
 		3BCC8C8C1967E15C006E5F51 /* users.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = users.json; path = ../../../../../Dropbox/SPAJAM/json/users.json; sourceTree = "<group>"; };
-		3BCC8C951967F900006E5F51 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3BCC8C961967F900006E5F51 /* SwiftyJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwiftyJSON.h; sourceTree = "<group>"; };
-		3BCC8C971967F900006E5F51 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
+		3BCC8C9A19681016006E5F51 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		3BCC8C9C1968150C006E5F51 /* sentence.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sentence.png; path = ../../../../../Pictures/sentence.png; sourceTree = "<group>"; };
+		3BDE61211968164F00EA0075 /* bg_01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bg_01.png; path = ../../../../../Dropbox/SPAJAM/images/bgs/bg_01.png; sourceTree = "<group>"; };
+		3BDE61231968179300EA0075 /* request.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = request.png; path = ../../../../../Pictures/request.png; sourceTree = "<group>"; };
+		3BDE612619681C1300EA0075 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3BDE612719681C1300EA0075 /* SwiftyJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwiftyJSON.h; sourceTree = "<group>"; };
+		3BDE612819681C1300EA0075 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +82,9 @@
 		3BB6B09B1967C36600B6E484 /* images */ = {
 			isa = PBXGroup;
 			children = (
+				3BDE61231968179300EA0075 /* request.png */,
+				3BDE61211968164F00EA0075 /* bg_01.png */,
+				3BCC8C9C1968150C006E5F51 /* sentence.png */,
 				3BCC8C861967D15E006E5F51 /* icon_map.png */,
 				3BCC8C871967D15E006E5F51 /* icon_more.png */,
 				3BCC8C881967D15E006E5F51 /* icon_people.png */,
@@ -85,7 +96,7 @@
 		3BC779721967A9DE00BAADBA = {
 			isa = PBXGroup;
 			children = (
-				3BCC8C941967F900006E5F51 /* SwiftyJSON */,
+				3BDE612519681C1300EA0075 /* SwiftyJSON */,
 				3BC7797D1967A9DE00BAADBA /* SPAJAM */,
 				3BC779931967A9DE00BAADBA /* SPAJAMTests */,
 				3BC7797C1967A9DE00BAADBA /* Products */,
@@ -108,6 +119,7 @@
 				3BB6B09B1967C36600B6E484 /* images */,
 				3BC779801967A9DE00BAADBA /* AppDelegate.swift */,
 				3BC779851967A9DE00BAADBA /* ViewController.swift */,
+				3BCC8C9A19681016006E5F51 /* DetailViewController.swift */,
 				3BC779871967A9DE00BAADBA /* Main.storyboard */,
 				3BC7798A1967A9DE00BAADBA /* Images.xcassets */,
 				3BC779821967A9DE00BAADBA /* SPAJAM.xcdatamodeld */,
@@ -141,15 +153,14 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		3BCC8C941967F900006E5F51 /* SwiftyJSON */ = {
+		3BDE612519681C1300EA0075 /* SwiftyJSON */ = {
 			isa = PBXGroup;
 			children = (
-				3BCC8C951967F900006E5F51 /* Info.plist */,
-				3BCC8C961967F900006E5F51 /* SwiftyJSON.h */,
-				3BCC8C971967F900006E5F51 /* SwiftyJSON.swift */,
+				3BDE612619681C1300EA0075 /* Info.plist */,
+				3BDE612719681C1300EA0075 /* SwiftyJSON.h */,
+				3BDE612819681C1300EA0075 /* SwiftyJSON.swift */,
 			);
-			name = SwiftyJSON;
-			path = "../../../../Downloads/SwiftyJSON-master/SwiftyJSON";
+			path = SwiftyJSON;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,13 +243,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3BCC8C981967F900006E5F51 /* Info.plist in Resources */,
+				3BDE61221968164F00EA0075 /* bg_01.png in Resources */,
 				3BC779891967A9DE00BAADBA /* Main.storyboard in Resources */,
 				3BCC8C891967D15E006E5F51 /* icon_map.png in Resources */,
 				3BC7798B1967A9DE00BAADBA /* Images.xcassets in Resources */,
 				3BB6CDB81967CE6E005438E9 /* icon_list.png in Resources */,
+				3BCC8C9D1968150C006E5F51 /* sentence.png in Resources */,
 				3BCC8C8D1967E15C006E5F51 /* users.json in Resources */,
 				3BCC8C8A1967D15E006E5F51 /* icon_more.png in Resources */,
+				3BDE612919681C1300EA0075 /* Info.plist in Resources */,
+				3BDE61241968179300EA0075 /* request.png in Resources */,
 				3BCC8C8B1967D15E006E5F51 /* icon_people.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,8 +273,9 @@
 			files = (
 				3BC779861967A9DE00BAADBA /* ViewController.swift in Sources */,
 				3BC779811967A9DE00BAADBA /* AppDelegate.swift in Sources */,
+				3BCC8C9B19681016006E5F51 /* DetailViewController.swift in Sources */,
+				3BDE612A19681C1300EA0075 /* SwiftyJSON.swift in Sources */,
 				3BC779841967A9DE00BAADBA /* SPAJAM.xcdatamodeld in Sources */,
-				3BCC8C991967F900006E5F51 /* SwiftyJSON.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

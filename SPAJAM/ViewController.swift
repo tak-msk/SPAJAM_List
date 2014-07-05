@@ -10,11 +10,10 @@ import UIKit
 
 class ViewController: UIViewController, UITableViewDataSource, UITableViewDelegate, NSURLConnectionDelegate{
     
-    let json: JSONValue!
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        self.
     }
 
     override func viewWillAppear(animated: Bool) {
@@ -25,7 +24,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         var reqest = NSURLRequest(URL: NSURL(string: url))
         NSURLConnection.sendAsynchronousRequest(reqest,queue: NSOperationQueue.mainQueue(),completionHandler:{
             (res: NSURLResponse!, data: NSData!, error: NSError!) in
-            json = JSONValue(data)
+            let json = JSONValue(data)
             //debug
             //println(json)
         })

@@ -79,9 +79,17 @@ SWIFT_CLASS("_TtC6SPAJAM11AppDelegate")
 @end
 
 
+SWIFT_CLASS("_TtC6SPAJAM20DetailViewController")
+@interface DetailViewController : UIViewController
+- (void)viewDidLoad;
+- (void)didReceiveMemoryWarning;
+- (instancetype)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (instancetype)initWithCoder:(NSCoder *)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
 SWIFT_CLASS("_TtC6SPAJAM14ViewController")
 @interface ViewController : UIViewController <UITableViewDataSource, UITableViewDelegate, NSURLConnectionDelegate>
-@property (nonatomic, readonly) NSArray * user;
 - (void)viewDidLoad;
 - (void)viewWillAppear:(BOOL)animated;
 - (void)didReceiveMemoryWarning;
