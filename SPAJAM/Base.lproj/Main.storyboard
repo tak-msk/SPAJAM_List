@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6154.21" systemVersion="13D65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <deployment defaultVersion="1808" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6153.13"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="SPAJAM" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <tableView appearanceType="aqua" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="90" sectionHeaderHeight="22" sectionFooterHeight="22" id="LtY-OZ-c0l">
+                                <rect key="frame" x="0.0" y="44" width="320" height="460"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="vXZ-lx-hvc" id="p3E-sr-mX8"/>
+                                </connections>
+                            </tableView>
+                            <navigationBar contentMode="scaleToFill" id="EN6-Ac-Mck">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" white="0.71226058467741937" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="barTintColor" white="0.22026209677419356" alpha="1" colorSpace="calibratedWhite"/>
+                                <textAttributes key="titleTextAttributes">
+                                    <fontDescription key="fontDescription" name="LaoSangamMN" family="Lao Sangam MN" pointSize="0.0"/>
+                                    <color key="textColor" white="0.63460811491935487" alpha="1" colorSpace="calibratedWhite"/>
+                                </textAttributes>
+                                <items>
+                                    <navigationItem title="Shibuya-ku, Tokyo, Japan" id="4C4-Bp-vsC">
+                                        <barButtonItem key="rightBarButtonItem" systemItem="search" id="YN7-mr-tdj"/>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="2LQ-5a-czp">
+                                <rect key="frame" x="0.0" y="504" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <items>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="EYu-vn-DRl"/>
+                                    <barButtonItem image="icon_list.png" style="plain" id="PLl-hP-WCG">
+                                        <color key="tintColor" red="0.095167577678637594" green="0.67054285768097877" blue="0.89818274456521741" alpha="1" colorSpace="calibratedRGB"/>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="VfA-I5-jgQ"/>
+                                    <barButtonItem image="icon_people.png" id="Ykf-Ik-Ljr"/>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="UfY-Ok-wwu"/>
+                                    <barButtonItem image="icon_map.png" id="eau-Nt-Vd7"/>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="Yjj-Bt-BOT"/>
+                                    <barButtonItem image="icon_more.png" id="RpH-Cp-Bmf"/>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="h0M-yr-LX7"/>
+                                </items>
+                            </toolbar>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="284" y="462"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="icon_list.png" width="44" height="44"/>
+        <image name="icon_map.png" width="44" height="44"/>
+        <image name="icon_more.png" width="44" height="44"/>
+        <image name="icon_people.png" width="44" height="44"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+    <color key="tintColor" red="0.69953719429347827" green="0.69953719429347827" blue="0.69953719429347827" alpha="1" colorSpace="calibratedRGB"/>
+</document>

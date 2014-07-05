@@ -1,0 +1,126 @@
+TSPAJAM
+v7
+r1
+cCheck dependencies
+cCompileSwift normal arm64 com.apple.xcode.tools.swift.compiler
+cCompileSwift normal armv7 com.apple.xcode.tools.swift.compiler
+cDitto /Users/taka/Desktop/Xcode/iPhone/SPAJAM/Build/Intermediates/SPAJAM.build/Debug-iphoneos/SPAJAM.build/DerivedSources/SPAJAM-Swift.h /Users/taka/Desktop/Xcode/iPhone/SPAJAM/Build/Intermediates/SPAJAM.build/Debug-iphoneos/SPAJAM.build/Objects-normal/armv7/SPAJAM-Swift.h
+cDitto /Users/taka/Desktop/Xcode/iPhone/SPAJAM/Build/Intermediates/SPAJAM.build/Debug-iphoneos/SPAJAM.build/DerivedSources/SPAJAM-Swift.h /Users/taka/Desktop/Xcode/iPhone/SPAJAM/Build/Intermediates/SPAJAM.build/Debug-iphoneos/SPAJAM.build/Objects-normal/arm64/SPAJAM-Swift.h
+cDitto /Users/taka/Desktop/Xcode/iPhone/SPAJAM/Build/Products/Debug-iphoneos/SPAJAM.swiftmodule/arm.swiftmodule /Users/taka/Desktop/Xcode/iPhone/SPAJAM/Build/Intermediates/SPAJAM.build/Debug-iphoneos/SPAJAM.build/Objects-normal/armv7/SPAJAM.swiftmodule
+cDitto /Users/taka/Desktop/Xcode/iPhone/SPAJAM/Build/Products/Debug-iphoneos/SPAJAM.swiftmodule/arm64.swiftmodule /Users/taka/Desktop/Xcode/iPhone/SPAJAM/Build/Intermediates/SPAJAM.build/Debug-iphoneos/SPAJAM.build/Objects-normal/arm64/SPAJAM.swiftmodule
+
+CCheck dependencies
+r0
+lSLF07#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies2bfafff7aa67b941^77bf0af8aa67b941^---0#1#1#--18"Check dependencies36"CBB38FAC-AF36-4B57-8FD4-95299F2F40DA-
+
+CCodeSign /Users/taka/Desktop/Xcode/iPhone/SPAJAM/Build/Products/Debug-iphoneos/SPAJAM.app
+r0
+
+CCompileAssetCatalog /Users/taka/Desktop/Xcode/iPhone/SPAJAM/Build/Products/Debug-iphoneos/SPAJAM.app /Users/taka/Desktop/Xcode/iPhone/SPAJAM/SPAJAM/Images.xcassets
+r0
+
+CCompileStoryboard /Users/taka/Desktop/Xcode/iPhone/SPAJAM/SPAJAM/Base.lproj/Main.storyboard
+r0
+
+CCompileSwift normal arm64 com.apple.xcode.tools.swift.compiler
+s426224376.033228
+e426224377.006346
+r1
+xCompileSwift
+xnormal
+xarm64
+xcom.apple.xcode.tools.swift.compiler
+d/Users/taka/Desktop/Xcode/iPhone/SPAJAM/SPAJAM/AppDelegate.swift
+d/Users/taka/Desktop/Xcode/iPhone/SPAJAM/SPAJAM/ViewController.swift
+lSLF07#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection26"Compile Swift source files62"CompileSwift normal arm64 com.apple.xcode.tools.swift.compilera40009f8aa67b941^eca101f9aa67b941^---0#0#1#--2535"CompileSwift normal arm64 com.apple.xcode.tools.swift.compiler    cd /Users/taka/Desktop/Xcode/iPhone/SPAJAM    export PATH="/Applications/Xcode6-Beta2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode6-Beta2.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode6-Beta2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swift -target arm64-apple-ios8.0 -module-name SPAJAM -O0 -sdk /Applications/Xcode6-Beta2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.0.sdk -g -module-cache-path /Users/taka/Library/Developer/Xcode/DerivedData/ModuleCache -I /Users/taka/Desktop/Xcode/iPhone/SPAJAM/Build/Products/Debug-iphoneos -F /Users/taka/Desktop/Xcode/iPhone/SPAJAM/Build/Products/Debug-iphoneos -c -j4 /Users/taka/Desktop/Xcode/iPhone/SPAJAM/SPAJAM/ViewController.swift /Users/taka/Desktop/Xcode/iPhone/SPAJAM/SPAJAM/AppDelegate.swift -output-file-map /Users/taka/Desktop/Xcode/iPhone/SPAJAM/Build/Intermediates/SPAJAM.build/Debug-iphoneos/SPAJAM.build/Objects-normal/arm64/SPAJAM-OutputFileMap.json -serialize-diagnostics -emit-dependencies -emit-module -emit-module-path /Users/taka/Desktop/Xcode/iPhone/SPAJAM/Build/Intermediates/SPAJAM.build/Debug-iphoneos/SPAJAM.build/Objects-normal/arm64/SPAJAM.swiftmodule -Xcc -iquote -Xcc /Users/taka/Desktop/Xcode/iPhone/SPAJAM/Build/Intermediates/SPAJAM.build/Debug-iphoneos/SPAJAM.build/SPAJAM-generated-files.hmap -Xcc -I/Users/taka/Desktop/Xcode/iPhone/SPAJAM/Build/Intermediates/SPAJAM.build/Debug-iphoneos/SPAJAM.build/SPAJAM-own-target-headers.hmap -Xcc -I/Users/taka/Desktop/Xcode/iPhone/SPAJAM/Build/Intermediates/SPAJAM.build/Debug-iphoneos/SPAJAM.build/SPAJAM-all-target-headers.hmap -Xcc -iquote -Xcc /Users/taka/Desktop/Xcode/iPhone/SPAJAM/Build/Intermediates/SPAJAM.build/Debug-iphoneos/SPAJAM.build/SPAJAM-project-headers.hmap -Xcc -I/Users/taka/Desktop/Xcode/iPhone/SPAJAM/Build/Products/Debug-iphoneos/include -Xcc -I/Applications/Xcode6-Beta2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -Xcc -I/Users/taka/Desktop/Xcode/iPhone/SPAJAM/Build/Intermediates/SPAJAM.build/Debug-iphoneos/SPAJAM.build/DerivedSources/arm64 -Xcc -I/Users/taka/Desktop/Xcode/iPhone/SPAJAM/Build/Intermediates/SPAJAM.build/Debug-iphoneos/SPAJAM.build/DerivedSources -Xcc -DDEBUG=1 -emit-objc-header -emit-objc-header-path /Users/taka/Desktop/Xcode/iPhone/SPAJAM/Build/Intermediates/SPAJAM.build/Debug-iphoneos/SPAJAM.build/Objects-normal/arm64/SPAJAM-Swift.h36"750E4FEC-BA17-438B-AEF8-6BA18DF11366-
+b340CF124-1C82-4A81-83D4-8A008819B738
+
+CCompileSwift normal armv7 com.apple.xcode.tools.swift.compiler
+s426224377.006737
+e426224377.601815
+r1
+xCompileSwift
+xnormal
+xarmv7
+xcom.apple.xcode.tools.swift.compiler
+d/Users/taka/Desktop/Xcode/iPhone/SPAJAM/SPAJAM/AppDelegate.swift
+d/Users/taka/Desktop/Xcode/iPhone/SPAJAM/SPAJAM/ViewController.swift
+lSLF07#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection26"Compile Swift source files62"CompileSwift normal armv7 com.apple.xcode.tools.swift.compiler5ed501f9aa67b941^a5129af9aa67b941^---0#0#1#--2535"CompileSwift normal armv7 com.apple.xcode.tools.swift.compiler    cd /Users/taka/Desktop/Xcode/iPhone/SPAJAM    export PATH="/Applications/Xcode6-Beta2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode6-Beta2.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode6-Beta2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swift -target armv7-apple-ios8.0 -module-name SPAJAM -O0 -sdk /Applications/Xcode6-Beta2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.0.sdk -g -module-cache-path /Users/taka/Library/Developer/Xcode/DerivedData/ModuleCache -I /Users/taka/Desktop/Xcode/iPhone/SPAJAM/Build/Products/Debug-iphoneos -F /Users/taka/Desktop/Xcode/iPhone/SPAJAM/Build/Products/Debug-iphoneos -c -j4 /Users/taka/Desktop/Xcode/iPhone/SPAJAM/SPAJAM/ViewController.swift /Users/taka/Desktop/Xcode/iPhone/SPAJAM/SPAJAM/AppDelegate.swift -output-file-map /Users/taka/Desktop/Xcode/iPhone/SPAJAM/Build/Intermediates/SPAJAM.build/Debug-iphoneos/SPAJAM.build/Objects-normal/armv7/SPAJAM-OutputFileMap.json -serialize-diagnostics -emit-dependencies -emit-module -emit-module-path /Users/taka/Desktop/Xcode/iPhone/SPAJAM/Build/Intermediates/SPAJAM.build/Debug-iphoneos/SPAJAM.build/Objects-normal/armv7/SPAJAM.swiftmodule -Xcc -iquote -Xcc /Users/taka/Desktop/Xcode/iPhone/SPAJAM/Build/Intermediates/SPAJAM.build/Debug-iphoneos/SPAJAM.build/SPAJAM-generated-files.hmap -Xcc -I/Users/taka/Desktop/Xcode/iPhone/SPAJAM/Build/Intermediates/SPAJAM.build/Debug-iphoneos/SPAJAM.build/SPAJAM-own-target-headers.hmap -Xcc -I/Users/taka/Desktop/Xcode/iPhone/SPAJAM/Build/Intermediates/SPAJAM.build/Debug-iphoneos/SPAJAM.build/SPAJAM-all-target-headers.hmap -Xcc -iquote -Xcc /Users/taka/Desktop/Xcode/iPhone/SPAJAM/Build/Intermediates/SPAJAM.build/Debug-iphoneos/SPAJAM.build/SPAJAM-project-headers.hmap -Xcc -I/Users/taka/Desktop/Xcode/iPhone/SPAJAM/Build/Products/Debug-iphoneos/include -Xcc -I/Applications/Xcode6-Beta2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -Xcc -I/Users/taka/Desktop/Xcode/iPhone/SPAJAM/Build/Intermediates/SPAJAM.build/Debug-iphoneos/SPAJAM.build/DerivedSources/armv7 -Xcc -I/Users/taka/Desktop/Xcode/iPhone/SPAJAM/Build/Intermediates/SPAJAM.build/Debug-iphoneos/SPAJAM.build/DerivedSources -Xcc -DDEBUG=1 -emit-objc-header -emit-objc-header-path /Users/taka/Desktop/Xcode/iPhone/SPAJAM/Build/Intermediates/SPAJAM.build/Debug-iphoneos/SPAJAM.build/Objects-normal/armv7/SPAJAM-Swift.h36"D0601C7B-F5BC-480A-B603-F6B18BDEBFC6-
+b340CF124-1C82-4A81-83D4-8A008819B738
+
+CCopySwiftLibs /Users/taka/Desktop/Xcode/iPhone/SPAJAM/Build/Products/Debug-iphoneos/SPAJAM.app
+r0
+
+CCpResource /Applications/Xcode6-Beta2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.0.sdk/ResourceRules.plist Build/Products/Debug-iphoneos/SPAJAM.app/ResourceRules.plist
+r0
+
+CCreateUniversalBinary /Users/taka/Desktop/Xcode/iPhone/SPAJAM/Build/Products/Debug-iphoneos/SPAJAM.app/SPAJAM normal armv7\ arm64
+r0
+
+CDataModelVersionCompile /Users/taka/Desktop/Xcode/iPhone/SPAJAM/Build/Products/Debug-iphoneos/SPAJAM.app/SPAJAM.momd /Users/taka/Desktop/Xcode/iPhone/SPAJAM/SPAJAM/SPAJAM.xcdatamodeld
+r0
+
+CDitto /Users/taka/Desktop/Xcode/iPhone/SPAJAM/Build/Intermediates/SPAJAM.build/Debug-iphoneos/SPAJAM.build/DerivedSources/SPAJAM-Swift.h /Users/taka/Desktop/Xcode/iPhone/SPAJAM/Build/Intermediates/SPAJAM.build/Debug-iphoneos/SPAJAM.build/Objects-normal/arm64/SPAJAM-Swift.h
+s426224377.602757
+e426224377.610013
+r1
+xDitto
+x/Users/taka/Desktop/Xcode/iPhone/SPAJAM/Build/Intermediates/SPAJAM.build/Debug-iphoneos/SPAJAM.build/DerivedSources/SPAJAM-Swift.h
+x/Users/taka/Desktop/Xcode/iPhone/SPAJAM/Build/Intermediates/SPAJAM.build/Debug-iphoneos/SPAJAM.build/Objects-normal/arm64/SPAJAM-Swift.h
+lSLF07#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection135"Copy /Users/taka/Desktop/Xcode/iPhone/SPAJAM/Build/Intermediates/SPAJAM.build/Debug-iphoneos/SPAJAM.build/DerivedSources/SPAJAM-Swift.h193"Ditto Build/Intermediates/SPAJAM.build/Debug-iphoneos/SPAJAM.build/DerivedSources/SPAJAM-Swift.h Build/Intermediates/SPAJAM.build/Debug-iphoneos/SPAJAM.build/Objects-normal/arm64/SPAJAM-Swift.hf65c9af9aa67b941^fe2a9cf9aa67b941^---0#0#1#-19%DVTDocumentLocation2@137"file:///Users/taka/Desktop/Xcode/iPhone/SPAJAM/Build/Intermediates/SPAJAM.build/Debug-iphoneos/SPAJAM.build/DerivedSources/SPAJAM-Swift.h0034006fdfffdf42^736"Ditto Build/Intermediates/SPAJAM.build/Debug-iphoneos/SPAJAM.build/DerivedSources/SPAJAM-Swift.h Build/Intermediates/SPAJAM.build/Debug-iphoneos/SPAJAM.build/Objects-normal/arm64/SPAJAM-Swift.h    cd /Users/taka/Desktop/Xcode/iPhone/SPAJAM    export PATH="/Applications/Xcode6-Beta2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode6-Beta2.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/ditto -rsrc /Users/taka/Desktop/Xcode/iPhone/SPAJAM/Build/Intermediates/SPAJAM.build/Debug-iphoneos/SPAJAM.build/Objects-normal/arm64/SPAJAM-Swift.h /Users/taka/Desktop/Xcode/iPhone/SPAJAM/Build/Intermediates/SPAJAM.build/Debug-iphoneos/SPAJAM.build/DerivedSources/SPAJAM-Swift.h36"0AD8A273-2C94-458C-AB40-8333478FFFF5-
+b340CF124-1C82-4A81-83D4-8A008819B738
+
+CDitto /Users/taka/Desktop/Xcode/iPhone/SPAJAM/Build/Intermediates/SPAJAM.build/Debug-iphoneos/SPAJAM.build/DerivedSources/SPAJAM-Swift.h /Users/taka/Desktop/Xcode/iPhone/SPAJAM/Build/Intermediates/SPAJAM.build/Debug-iphoneos/SPAJAM.build/Objects-normal/armv7/SPAJAM-Swift.h
+s426224377.602677
+e426224377.610148
+r1
+xDitto
+x/Users/taka/Desktop/Xcode/iPhone/SPAJAM/Build/Intermediates/SPAJAM.build/Debug-iphoneos/SPAJAM.build/DerivedSources/SPAJAM-Swift.h
+x/Users/taka/Desktop/Xcode/iPhone/SPAJAM/Build/Intermediates/SPAJAM.build/Debug-iphoneos/SPAJAM.build/Objects-normal/armv7/SPAJAM-Swift.h
+lSLF07#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection135"Copy /Users/taka/Desktop/Xcode/iPhone/SPAJAM/Build/Intermediates/SPAJAM.build/Debug-iphoneos/SPAJAM.build/DerivedSources/SPAJAM-Swift.h193"Ditto Build/Intermediates/SPAJAM.build/Debug-iphoneos/SPAJAM.build/DerivedSources/SPAJAM-Swift.h Build/Intermediates/SPAJAM.build/Debug-iphoneos/SPAJAM.build/Objects-normal/armv7/SPAJAM-Swift.ha3589af9aa67b941^76329cf9aa67b941^---0#0#1#-19%DVTDocumentLocation2@137"file:///Users/taka/Desktop/Xcode/iPhone/SPAJAM/Build/Intermediates/SPAJAM.build/Debug-iphoneos/SPAJAM.build/DerivedSources/SPAJAM-Swift.h0034006fdfffdf42^736"Ditto Build/Intermediates/SPAJAM.build/Debug-iphoneos/SPAJAM.build/DerivedSources/SPAJAM-Swift.h Build/Intermediates/SPAJAM.build/Debug-iphoneos/SPAJAM.build/Objects-normal/armv7/SPAJAM-Swift.h    cd /Users/taka/Desktop/Xcode/iPhone/SPAJAM    export PATH="/Applications/Xcode6-Beta2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode6-Beta2.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/ditto -rsrc /Users/taka/Desktop/Xcode/iPhone/SPAJAM/Build/Intermediates/SPAJAM.build/Debug-iphoneos/SPAJAM.build/Objects-normal/armv7/SPAJAM-Swift.h /Users/taka/Desktop/Xcode/iPhone/SPAJAM/Build/Intermediates/SPAJAM.build/Debug-iphoneos/SPAJAM.build/DerivedSources/SPAJAM-Swift.h36"1F49076F-CEB1-427F-93F0-6120924B8A7A-
+b340CF124-1C82-4A81-83D4-8A008819B738
+
+CDitto /Users/taka/Desktop/Xcode/iPhone/SPAJAM/Build/Products/Debug-iphoneos/SPAJAM.swiftmodule/arm.swiftmodule /Users/taka/Desktop/Xcode/iPhone/SPAJAM/Build/Intermediates/SPAJAM.build/Debug-iphoneos/SPAJAM.build/Objects-normal/armv7/SPAJAM.swiftmodule
+s426224377.610671
+e426224377.615979
+r1
+xDitto
+x/Users/taka/Desktop/Xcode/iPhone/SPAJAM/Build/Products/Debug-iphoneos/SPAJAM.swiftmodule/arm.swiftmodule
+x/Users/taka/Desktop/Xcode/iPhone/SPAJAM/Build/Intermediates/SPAJAM.build/Debug-iphoneos/SPAJAM.build/Objects-normal/armv7/SPAJAM.swiftmodule
+lSLF07#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection16"Copy swiftmodule171"Ditto Build/Products/Debug-iphoneos/SPAJAM.swiftmodule/arm.swiftmodule Build/Intermediates/SPAJAM.build/Debug-iphoneos/SPAJAM.build/Objects-normal/armv7/SPAJAM.swiftmoduleb6659cf9aa67b941^d0b79df9aa67b941^---0#0#1#-19%DVTDocumentLocation2@111"file:///Users/taka/Desktop/Xcode/iPhone/SPAJAM/Build/Products/Debug-iphoneos/SPAJAM.swiftmodule/arm.swiftmodule0034006fdfffdf42^692"Ditto Build/Products/Debug-iphoneos/SPAJAM.swiftmodule/arm.swiftmodule Build/Intermediates/SPAJAM.build/Debug-iphoneos/SPAJAM.build/Objects-normal/armv7/SPAJAM.swiftmodule    cd /Users/taka/Desktop/Xcode/iPhone/SPAJAM    export PATH="/Applications/Xcode6-Beta2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode6-Beta2.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/ditto -rsrc /Users/taka/Desktop/Xcode/iPhone/SPAJAM/Build/Intermediates/SPAJAM.build/Debug-iphoneos/SPAJAM.build/Objects-normal/armv7/SPAJAM.swiftmodule /Users/taka/Desktop/Xcode/iPhone/SPAJAM/Build/Products/Debug-iphoneos/SPAJAM.swiftmodule/arm.swiftmodule36"E3CCE293-8B03-4F92-8E03-D5055B565788-
+b340CF124-1C82-4A81-83D4-8A008819B738
+
+CDitto /Users/taka/Desktop/Xcode/iPhone/SPAJAM/Build/Products/Debug-iphoneos/SPAJAM.swiftmodule/arm64.swiftmodule /Users/taka/Desktop/Xcode/iPhone/SPAJAM/Build/Intermediates/SPAJAM.build/Debug-iphoneos/SPAJAM.build/Objects-normal/arm64/SPAJAM.swiftmodule
+s426224377.610747
+e426224377.615960
+r1
+xDitto
+x/Users/taka/Desktop/Xcode/iPhone/SPAJAM/Build/Products/Debug-iphoneos/SPAJAM.swiftmodule/arm64.swiftmodule
+x/Users/taka/Desktop/Xcode/iPhone/SPAJAM/Build/Intermediates/SPAJAM.build/Debug-iphoneos/SPAJAM.build/Objects-normal/arm64/SPAJAM.swiftmodule
+lSLF07#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection16"Copy swiftmodule173"Ditto Build/Products/Debug-iphoneos/SPAJAM.swiftmodule/arm64.swiftmodule Build/Intermediates/SPAJAM.build/Debug-iphoneos/SPAJAM.build/Objects-normal/arm64/SPAJAM.swiftmodulecf679cf9aa67b941^7db39df9aa67b941^---0#0#1#-19%DVTDocumentLocation2@113"file:///Users/taka/Desktop/Xcode/iPhone/SPAJAM/Build/Products/Debug-iphoneos/SPAJAM.swiftmodule/arm64.swiftmodule0034006fdfffdf42^696"Ditto Build/Products/Debug-iphoneos/SPAJAM.swiftmodule/arm64.swiftmodule Build/Intermediates/SPAJAM.build/Debug-iphoneos/SPAJAM.build/Objects-normal/arm64/SPAJAM.swiftmodule    cd /Users/taka/Desktop/Xcode/iPhone/SPAJAM    export PATH="/Applications/Xcode6-Beta2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode6-Beta2.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/ditto -rsrc /Users/taka/Desktop/Xcode/iPhone/SPAJAM/Build/Intermediates/SPAJAM.build/Debug-iphoneos/SPAJAM.build/Objects-normal/arm64/SPAJAM.swiftmodule /Users/taka/Desktop/Xcode/iPhone/SPAJAM/Build/Products/Debug-iphoneos/SPAJAM.swiftmodule/arm64.swiftmodule36"47FCE91A-D213-4B7D-974D-54E160236007-
+b340CF124-1C82-4A81-83D4-8A008819B738
+
+CGenerateDSYMFile /Users/taka/Desktop/Xcode/iPhone/SPAJAM/Build/Products/Debug-iphoneos/SPAJAM.app.dSYM /Users/taka/Desktop/Xcode/iPhone/SPAJAM/Build/Products/Debug-iphoneos/SPAJAM.app/SPAJAM
+r0
+
+CLd /Users/taka/Desktop/Xcode/iPhone/SPAJAM/Build/Intermediates/SPAJAM.build/Debug-iphoneos/SPAJAM.build/Objects-normal/arm64/SPAJAM normal arm64
+r0
+
+CLd /Users/taka/Desktop/Xcode/iPhone/SPAJAM/Build/Intermediates/SPAJAM.build/Debug-iphoneos/SPAJAM.build/Objects-normal/armv7/SPAJAM normal armv7
+r0
+
+CLd /Users/taka/Desktop/Xcode/iPhone/SPAJAM/Build/Products/Debug-iphoneos/SPAJAM.app/SPAJAM normal armv7
+r0
+
+CProcessInfoPlistFile /Users/taka/Desktop/Xcode/iPhone/SPAJAM/Build/Products/Debug-iphoneos/SPAJAM.app/Info.plist /Users/taka/Desktop/Xcode/iPhone/SPAJAM/SPAJAM/Info.plist
+r0
+
+CProcessProductPackaging /Applications/Xcode6-Beta2.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.0.sdk/Entitlements.plist /Users/taka/Desktop/Xcode/iPhone/SPAJAM/Build/Intermediates/SPAJAM.build/Debug-iphoneos/SPAJAM.build/SPAJAM.app.xcent
+r0
+
+CProcessProductPackaging /Users/taka/Library/MobileDevice/Provisioning\ Profiles/A9891F48-F523-4496-89D4-0215B9E56554.mobileprovision /Users/taka/Desktop/Xcode/iPhone/SPAJAM/Build/Products/Debug-iphoneos/SPAJAM.app/embedded.mobileprovision
+r0
+
+CTouch /Users/taka/Desktop/Xcode/iPhone/SPAJAM/Build/Products/Debug-iphoneos/SPAJAM.app
+r0
+

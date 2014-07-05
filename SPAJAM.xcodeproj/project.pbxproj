@@ -1,0 +1,484 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3BB6CDB81967CE6E005438E9 /* icon_list.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BB6CDB71967CE6E005438E9 /* icon_list.png */; };
+		3BC779811967A9DE00BAADBA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BC779801967A9DE00BAADBA /* AppDelegate.swift */; };
+		3BC779841967A9DE00BAADBA /* SPAJAM.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3BC779821967A9DE00BAADBA /* SPAJAM.xcdatamodeld */; };
+		3BC779861967A9DE00BAADBA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BC779851967A9DE00BAADBA /* ViewController.swift */; };
+		3BC779891967A9DE00BAADBA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BC779871967A9DE00BAADBA /* Main.storyboard */; };
+		3BC7798B1967A9DE00BAADBA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BC7798A1967A9DE00BAADBA /* Images.xcassets */; };
+		3BC779971967A9DE00BAADBA /* SPAJAMTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BC779961967A9DE00BAADBA /* SPAJAMTests.swift */; };
+		3BCC8C891967D15E006E5F51 /* icon_map.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BCC8C861967D15E006E5F51 /* icon_map.png */; };
+		3BCC8C8A1967D15E006E5F51 /* icon_more.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BCC8C871967D15E006E5F51 /* icon_more.png */; };
+		3BCC8C8B1967D15E006E5F51 /* icon_people.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BCC8C881967D15E006E5F51 /* icon_people.png */; };
+		3BCC8C8D1967E15C006E5F51 /* users.json in Resources */ = {isa = PBXBuildFile; fileRef = 3BCC8C8C1967E15C006E5F51 /* users.json */; };
+		3BCC8C981967F900006E5F51 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3BCC8C951967F900006E5F51 /* Info.plist */; };
+		3BCC8C991967F900006E5F51 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BCC8C971967F900006E5F51 /* SwiftyJSON.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3BC779911967A9DE00BAADBA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3BC779731967A9DE00BAADBA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3BC7797A1967A9DE00BAADBA;
+			remoteInfo = SPAJAM;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3BB6CDB71967CE6E005438E9 /* icon_list.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon_list.png; path = ../../../../../Dropbox/SPAJAM/Icons/icon_list.png; sourceTree = "<group>"; };
+		3BC7797B1967A9DE00BAADBA /* SPAJAM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SPAJAM.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BC7797F1967A9DE00BAADBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3BC779801967A9DE00BAADBA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3BC779831967A9DE00BAADBA /* SPAJAM.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SPAJAM.xcdatamodel; sourceTree = "<group>"; };
+		3BC779851967A9DE00BAADBA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3BC779881967A9DE00BAADBA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3BC7798A1967A9DE00BAADBA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3BC779901967A9DE00BAADBA /* SPAJAMTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SPAJAMTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BC779951967A9DE00BAADBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3BC779961967A9DE00BAADBA /* SPAJAMTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SPAJAMTests.swift; sourceTree = "<group>"; };
+		3BCC8C861967D15E006E5F51 /* icon_map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon_map.png; path = ../../../../../Dropbox/SPAJAM/Icons/icon_map.png; sourceTree = "<group>"; };
+		3BCC8C871967D15E006E5F51 /* icon_more.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon_more.png; path = ../../../../../Dropbox/SPAJAM/Icons/icon_more.png; sourceTree = "<group>"; };
+		3BCC8C881967D15E006E5F51 /* icon_people.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon_people.png; path = ../../../../../Dropbox/SPAJAM/Icons/icon_people.png; sourceTree = "<group>"; };
+		3BCC8C8C1967E15C006E5F51 /* users.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = users.json; path = ../../../../../Dropbox/SPAJAM/json/users.json; sourceTree = "<group>"; };
+		3BCC8C951967F900006E5F51 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3BCC8C961967F900006E5F51 /* SwiftyJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwiftyJSON.h; sourceTree = "<group>"; };
+		3BCC8C971967F900006E5F51 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3BC779781967A9DE00BAADBA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BC7798D1967A9DE00BAADBA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3BB6B09B1967C36600B6E484 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				3BCC8C861967D15E006E5F51 /* icon_map.png */,
+				3BCC8C871967D15E006E5F51 /* icon_more.png */,
+				3BCC8C881967D15E006E5F51 /* icon_people.png */,
+				3BB6CDB71967CE6E005438E9 /* icon_list.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+		3BC779721967A9DE00BAADBA = {
+			isa = PBXGroup;
+			children = (
+				3BCC8C941967F900006E5F51 /* SwiftyJSON */,
+				3BC7797D1967A9DE00BAADBA /* SPAJAM */,
+				3BC779931967A9DE00BAADBA /* SPAJAMTests */,
+				3BC7797C1967A9DE00BAADBA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3BC7797C1967A9DE00BAADBA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3BC7797B1967A9DE00BAADBA /* SPAJAM.app */,
+				3BC779901967A9DE00BAADBA /* SPAJAMTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3BC7797D1967A9DE00BAADBA /* SPAJAM */ = {
+			isa = PBXGroup;
+			children = (
+				3BCC8C8C1967E15C006E5F51 /* users.json */,
+				3BB6B09B1967C36600B6E484 /* images */,
+				3BC779801967A9DE00BAADBA /* AppDelegate.swift */,
+				3BC779851967A9DE00BAADBA /* ViewController.swift */,
+				3BC779871967A9DE00BAADBA /* Main.storyboard */,
+				3BC7798A1967A9DE00BAADBA /* Images.xcassets */,
+				3BC779821967A9DE00BAADBA /* SPAJAM.xcdatamodeld */,
+				3BC7797E1967A9DE00BAADBA /* Supporting Files */,
+			);
+			path = SPAJAM;
+			sourceTree = "<group>";
+		};
+		3BC7797E1967A9DE00BAADBA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3BC7797F1967A9DE00BAADBA /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3BC779931967A9DE00BAADBA /* SPAJAMTests */ = {
+			isa = PBXGroup;
+			children = (
+				3BC779961967A9DE00BAADBA /* SPAJAMTests.swift */,
+				3BC779941967A9DE00BAADBA /* Supporting Files */,
+			);
+			path = SPAJAMTests;
+			sourceTree = "<group>";
+		};
+		3BC779941967A9DE00BAADBA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3BC779951967A9DE00BAADBA /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3BCC8C941967F900006E5F51 /* SwiftyJSON */ = {
+			isa = PBXGroup;
+			children = (
+				3BCC8C951967F900006E5F51 /* Info.plist */,
+				3BCC8C961967F900006E5F51 /* SwiftyJSON.h */,
+				3BCC8C971967F900006E5F51 /* SwiftyJSON.swift */,
+			);
+			name = SwiftyJSON;
+			path = "../../../../Downloads/SwiftyJSON-master/SwiftyJSON";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3BC7797A1967A9DE00BAADBA /* SPAJAM */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3BC7799A1967A9DE00BAADBA /* Build configuration list for PBXNativeTarget "SPAJAM" */;
+			buildPhases = (
+				3BC779771967A9DE00BAADBA /* Sources */,
+				3BC779781967A9DE00BAADBA /* Frameworks */,
+				3BC779791967A9DE00BAADBA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SPAJAM;
+			productName = SPAJAM;
+			productReference = 3BC7797B1967A9DE00BAADBA /* SPAJAM.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3BC7798F1967A9DE00BAADBA /* SPAJAMTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3BC7799D1967A9DE00BAADBA /* Build configuration list for PBXNativeTarget "SPAJAMTests" */;
+			buildPhases = (
+				3BC7798C1967A9DE00BAADBA /* Sources */,
+				3BC7798D1967A9DE00BAADBA /* Frameworks */,
+				3BC7798E1967A9DE00BAADBA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3BC779921967A9DE00BAADBA /* PBXTargetDependency */,
+			);
+			name = SPAJAMTests;
+			productName = SPAJAMTests;
+			productReference = 3BC779901967A9DE00BAADBA /* SPAJAMTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3BC779731967A9DE00BAADBA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Takahiro Masaki";
+				TargetAttributes = {
+					3BC7797A1967A9DE00BAADBA = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					3BC7798F1967A9DE00BAADBA = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 3BC7797A1967A9DE00BAADBA;
+					};
+				};
+			};
+			buildConfigurationList = 3BC779761967A9DE00BAADBA /* Build configuration list for PBXProject "SPAJAM" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3BC779721967A9DE00BAADBA;
+			productRefGroup = 3BC7797C1967A9DE00BAADBA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3BC7797A1967A9DE00BAADBA /* SPAJAM */,
+				3BC7798F1967A9DE00BAADBA /* SPAJAMTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3BC779791967A9DE00BAADBA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BCC8C981967F900006E5F51 /* Info.plist in Resources */,
+				3BC779891967A9DE00BAADBA /* Main.storyboard in Resources */,
+				3BCC8C891967D15E006E5F51 /* icon_map.png in Resources */,
+				3BC7798B1967A9DE00BAADBA /* Images.xcassets in Resources */,
+				3BB6CDB81967CE6E005438E9 /* icon_list.png in Resources */,
+				3BCC8C8D1967E15C006E5F51 /* users.json in Resources */,
+				3BCC8C8A1967D15E006E5F51 /* icon_more.png in Resources */,
+				3BCC8C8B1967D15E006E5F51 /* icon_people.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BC7798E1967A9DE00BAADBA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3BC779771967A9DE00BAADBA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BC779861967A9DE00BAADBA /* ViewController.swift in Sources */,
+				3BC779811967A9DE00BAADBA /* AppDelegate.swift in Sources */,
+				3BC779841967A9DE00BAADBA /* SPAJAM.xcdatamodeld in Sources */,
+				3BCC8C991967F900006E5F51 /* SwiftyJSON.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BC7798C1967A9DE00BAADBA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BC779971967A9DE00BAADBA /* SPAJAMTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3BC779921967A9DE00BAADBA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3BC7797A1967A9DE00BAADBA /* SPAJAM */;
+			targetProxy = 3BC779911967A9DE00BAADBA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3BC779871967A9DE00BAADBA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3BC779881967A9DE00BAADBA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3BC779981967A9DE00BAADBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3BC779991967A9DE00BAADBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3BC7799B1967A9DE00BAADBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = SPAJAM/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "A9891F48-F523-4496-89D4-0215B9E56554";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		3BC7799C1967A9DE00BAADBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = SPAJAM/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "A9891F48-F523-4496-89D4-0215B9E56554";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		3BC7799E1967A9DE00BAADBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SPAJAM.app/SPAJAM";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SPAJAMTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		3BC7799F1967A9DE00BAADBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SPAJAM.app/SPAJAM";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SPAJAMTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3BC779761967A9DE00BAADBA /* Build configuration list for PBXProject "SPAJAM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BC779981967A9DE00BAADBA /* Debug */,
+				3BC779991967A9DE00BAADBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3BC7799A1967A9DE00BAADBA /* Build configuration list for PBXNativeTarget "SPAJAM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BC7799B1967A9DE00BAADBA /* Debug */,
+				3BC7799C1967A9DE00BAADBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3BC7799D1967A9DE00BAADBA /* Build configuration list for PBXNativeTarget "SPAJAMTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BC7799E1967A9DE00BAADBA /* Debug */,
+				3BC7799F1967A9DE00BAADBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3BC779821967A9DE00BAADBA /* SPAJAM.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3BC779831967A9DE00BAADBA /* SPAJAM.xcdatamodel */,
+			);
+			currentVersion = 3BC779831967A9DE00BAADBA /* SPAJAM.xcdatamodel */;
+			path = SPAJAM.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 3BC779731967A9DE00BAADBA /* Project object */;
+}
